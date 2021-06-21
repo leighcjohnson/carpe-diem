@@ -18,11 +18,11 @@ $(document).ready(function() {
     $("#10").val(localStorage.getItem("ten"));
     $("#11").val(localStorage.getItem("eleven"));
     $("#12").val(localStorage.getItem("twelve"));
-    $("#1").val(localStorage.getItem("one"));
-    $("#2").val(localStorage.getItem("two"));
-    $("#3").val(localStorage.getItem("three"));
-    $("#4").val(localStorage.getItem("four"));
-    $("#5").val(localStorage.getItem("five"));
+    $("#13").val(localStorage.getItem("thirteen"));
+    $("#14").val(localStorage.getItem("fourteen"));
+    $("#15").val(localStorage.getItem("fifteen"));
+    $("#16").val(localStorage.getItem("sixteen"));
+    $("#17").val(localStorage.getItem("seventeen"));
     
     if ((moment().format("H")) > 9) {
         $(nine).css("background-color", "gray");
@@ -64,52 +64,52 @@ $(document).ready(function() {
         alert('Error');
     } 
 
-    if ((moment().format("H")) > 1) {
-        $(one).css("background-color", "gray");
-    } else if ((moment().format("H")) < 1) {
-        $(one).css("background-color", "rgb(146, 180, 245)");
-    } else if ((moment().format("H")) == 1) {
-        $(one).css("background-color", "red");
+    if ((moment().format("H")) > 13) {
+        $(thirteen).css("background-color", "gray");
+    } else if ((moment().format("H")) < 13) {
+        $(thirteen).css("background-color", "rgb(146, 180, 245)");
+    } else if ((moment().format("H")) == 13) {
+        $(thirteen).css("background-color", "red");
     } else {
         alert('Error');
     }
 
-    if ((moment().format("H")) > 2) {
-        $(two).css("background-color", "gray");
-    } else if ((moment().format("H")) < 2) {
-        $(two).css("background-color", "rgb(146, 180, 245)");
-    } else if ((moment().format("H")) == 2) {
-        $(two).css("background-color", "red");
+    if ((moment().format("H")) > 14) {
+        $(fourteen).css("background-color", "gray");
+    } else if ((moment().format("H")) < 14) {
+        $(fourteen).css("background-color", "rgb(146, 180, 245)");
+    } else if ((moment().format("H")) == 14) {
+        $(fourteen).css("background-color", "red");
     } else {
         alert('Error');
     }
 
-    if ((moment().format("H")) > 3) {
-        $(three).css("background-color", "gray");
-    } else if ((moment().format("H")) < 3) {
-        $(three).css("background-color", "rgb(146, 180, 245)");
-    } else if ((moment().format("H")) == 3) {
-        $(three).css("background-color", "red");
+    if ((moment().format("H")) > 15) {
+        $(fifteen).css("background-color", "gray");
+    } else if ((moment().format("H")) < 15) {
+        $(fifteen).css("background-color", "rgb(146, 180, 245)");
+    } else if ((moment().format("H")) == 15) {
+        $(fifteen).css("background-color", "red");
     } else {
         alert('Error');
     }
 
-    if ((moment().format("H")) > 4) {
-        $(four).css("background-color", "gray");
-    } else if ((moment().format("H")) < 4) {
-        $(four).css("background-color", "rgb(146, 180, 245)");
-    } else if ((moment().format("H")) == 4) {
-        $(four).css("background-color", "red");
+    if ((moment().format("H")) > 16) {
+        $(sixteen).css("background-color", "gray");
+    } else if ((moment().format("H")) < 16) {
+        $(sixteen).css("background-color", "rgb(146, 180, 245)");
+    } else if ((moment().format("H")) == 16) {
+        $(sixteen).css("background-color", "red");
     } else {
         alert('Error');
     }
 
-    if ((moment().format("H")) > 5) {
-        $(five).css("background-color", "gray");
-    } else if ((moment().format("H")) < 5) {
-        $(five).css("background-color", "rgb(146, 180, 245)");
-    } else if ((moment().format("H")) == 5) {
-        $(five).css("background-color", "red");
+    if ((moment().format("H")) > 17) {
+        $(seventeen).css("background-color", "gray");
+    } else if ((moment().format("H")) < 17) {
+        $(seventeen).css("background-color", "rgb(146, 180, 245)");
+    } else if ((moment().format("H")) == 17) {
+        $(seventeen).css("background-color", "red");
     } else {
         alert('Error');
     } 

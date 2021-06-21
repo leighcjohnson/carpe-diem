@@ -5,7 +5,7 @@ $(document).ready(function() {
     }
     setInterval(update, 1000);
 
-    $(".savebtn").on("click", function () {
+    $(".btn").on("click", function () {
         var input = $(this).siblings(".form").val();
         var hour = $(this).siblings().attr("id");
         localStorage.setItem(hour, input);
